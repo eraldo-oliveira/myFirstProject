@@ -1,11 +1,13 @@
 import { Link, Route, Switch } from "wouter";
-import HomeView from "./views/HomeView"
+import HomePage from "./views/HomePage"
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
+      <Header />
       <Switch>
-        <Route path="/" component={HomeView} />
+        <Route path="/" component={HomePage} />
       </Switch>
     </>
   )
