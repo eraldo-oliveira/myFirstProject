@@ -11,7 +11,7 @@ function Header() {
           <ul className="hidden md:flex gap-10">
               <li className="hover:text-red-500"><a href="/">Home</a></li>
               <li className="hover:text-red-500"><a href="/add-location">Add Location</a></li>
-              <li className="hover:text-red-500"><a href="/traveler">The Traveler</a></li>
+              <li className="hover:text-red-500"><a href="/the-traveler">The Traveler</a></li>
           </ul>
         </nav>
       </>
