@@ -9,8 +9,10 @@ function Footer() {
             <li className="hover:text-red-500"><a href="/the-traveler">The Traveler</a></li>
           </ul>
   
-          <div className="text-red-800">
+          <div className="text-red-800 justify-items-center	">
             <p className="hidden md:block">&copy; 2024 Website. All Rights Reserved.</p>
+            <p className="hidden md:block">Contacts</p>
+            <p className="hidden md:block">Social Media</p>
           </div>
         </div>
       </footer>

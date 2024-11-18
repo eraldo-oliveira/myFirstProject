@@ -4,7 +4,7 @@ function Header() {
       <>
         <nav className="flex p-6 bg-yellow-300 justify-center md:justify-between items-center">
           <div className="flex gap-5 items-center">
-            <img className="w-10 h-10" src="" alt="Logo" />
+            <img className="w-10 h-10" src="" alt="Logo do blog" />
             <span className="text-red-800">Title</span>
           </div>
 
@@ -14,6 +14,8 @@ function Header() {
               <li className="hover:text-red-500"><a href="/the-traveler">The Traveler</a></li>
           </ul>
         </nav>
+
+        
       </>
     );
   }
