@@ -8,7 +8,7 @@ function HomePage() {
         <div className="container mx-auto bg-red-300 relative w-full h-96 bg-cover bg-center">
           <img
             className="w-full h-full object-cover"
-            src="./images/image.png"
+            src="./images/teste.png"
             alt="Imagem de Destaque"
           />
           <div className="absolute inset-0"></div>
