@@ -2,7 +2,7 @@
 function Header() {
     return (
       <>
-        <nav className="flex p-6 bg-green-300 justify-center md:justify-between items-center">
+        <nav className="flex p-6 bg-red-500 justify-center md:justify-between items-center">
           <div className="container mx-auto"> 
             <div className="flex gap-5 items-center">
               <img className="w-10 h-10" src="" alt="Logo do blog" />
