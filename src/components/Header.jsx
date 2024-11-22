@@ -6,8 +6,7 @@ function Header() {
           <nav className="bg-red-200">
             <div className="container mx-auto flex p-6 justify-center md:justify-between items-center">
               <div className="">
-                <div className="flex gap-5 items-center">
-                  <img className="w-10 h-10" src="" alt="Logo do blog" />
+                <div className="flex items-center">
                   <span className="text-black">Title</span>
                 </div>
               </div>
