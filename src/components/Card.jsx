@@ -20,7 +20,7 @@ function Card() {
                         </figure>
                         <div className="flex flex-col p-4">
                           <span className="font-semibold">Berlin - Alemanha</span>
-                          <span>12-07-2021</span>
+                          <span><i class="fa-regular fa-calendar"></i> 12-07-2021</span>
                         </div>
                       </div>
                       </Link>
@@ -36,7 +36,7 @@ function Card() {
                         </figure>
                         <div className="flex flex-col p-4">
                           <span className="font-semibold">Berlin - Alemanha</span>
-                          <span>12-07-2021</span>
+                          <span><i class="fa-regular fa-calendar"></i> 12-07-2021</span>
                         </div>
                       </div>
                       </Link>
@@ -52,7 +52,7 @@ function Card() {
                         </figure>
                         <div className="flex flex-col p-4">
                           <span className="font-semibold">Berlin - Alemanha</span>
-                          <span>12-07-2021</span>
+                          <span><i class="fa-regular fa-calendar"></i> 12-07-2021</span>
                         </div>
                       </div>
                       </Link>

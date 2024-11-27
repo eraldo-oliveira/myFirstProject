@@ -8,7 +8,7 @@ function LocationDetailsPage() {
             <div className="container mx-auto p-6 w-96">
                 <div className="bg-blue-600 text-white p-4 rounded-lg text-center">
                     <h1 className="text-2xl font-bold">Berlim, Alemanha</h1>
-                    <p className="mt-1 text-lg">Data da visita: 27-11-2024</p>
+                    <p className="mt-1 text-lg">Data da visita: 12-07-2024</p>
                 </div>
             </div>
 
