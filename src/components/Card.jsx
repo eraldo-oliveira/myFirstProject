@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 
 function Card() {
     return (
@@ -8,6 +9,7 @@ function Card() {
             <div className="container mx-auto bg-gray-200 p-6">
                   <div className="grid md:grid-cols-3 gap-8">
                       {/* CARD */}
+                      <Link href="/details">
                       <div className="bg-white overflow-hidden rounded-xl shadow-lg">
                         <figure className="flex justify-center">
                           <img 
@@ -21,7 +23,9 @@ function Card() {
                           <span>12-07-2021</span>
                         </div>
                       </div>
+                      </Link>
                       {/* CARD */}
+                      <Link href="/details">
                       <div className="bg-white overflow-hidden rounded-xl shadow-lg">
                         <figure className="flex justify-center">
                           <img 
@@ -35,7 +39,9 @@ function Card() {
                           <span>12-07-2021</span>
                         </div>
                       </div>
+                      </Link>
                       {/* CARD */}
+                      <Link href="/details">
                       <div className="bg-white overflow-hidden rounded-xl shadow-lg">
                         <figure className="flex justify-center">
                           <img 
@@ -49,6 +55,7 @@ function Card() {
                           <span>12-07-2021</span>
                         </div>
                       </div>
+                      </Link>
                   </div>
               </div>
           </section>
