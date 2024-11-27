@@ -5,10 +5,10 @@ function HomePage() {
     <main>
       {/* Hero */}
       <section>
-        <div className="container mx-auto bg-red-300 relative w-full h-96 bg-cover bg-center">
+        <div className="container mx-auto bg-red-300 relative w-full h-full bg-cover bg-center">
           <img
-            className="w-full h-full object-cover"
-            src="./images/teste.png"
+            className="w-full h-96 object-cover"
+            src="./images/teste2.png"
             alt="Imagem de Destaque"
           />
           <div className="absolute inset-0"></div>

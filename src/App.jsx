@@ -7,8 +7,6 @@ import AddLocationPage from "./views/AddLocationPage";
 import TheTravelerPage from "./views/TheTravelerPage";
 
 
-
-
 function App() {
   return (
     <>

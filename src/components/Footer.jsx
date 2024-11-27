@@ -13,7 +13,12 @@ function Footer() {
             <div className="text-black justify-items-center">
               <p className="hidden md:block">&copy; 2024 Website. All Rights Reserved.</p>
               <p className="hidden md:block">Contacts</p>
-              <p className="hidden md:block">Social Media</p>
+              <p className="hidden md:block ">
+                <i class="fa-brands fa-instagram text-xl mr-2"></i>
+                <i class="fa-brands fa-x-twitter text-xl mr-2"></i>
+                <i class="fa-brands fa-whatsapp text-xl"></i>
+              </p>
+              
             </div>
           </div>
         </footer>

@@ -12,7 +12,7 @@ function Header() {
               </div>
                 <ul className="hidden md:flex gap-10">
                   <li className="hover:text-red-500">
-                    <a href="/">Home</a>
+                    <a href="/"><i class="fa-solid fa-house"></i> Home</a>
                   </li>
                   <li className="hover:text-red-500">
                     <a href="/add-location">Add Location</a>
