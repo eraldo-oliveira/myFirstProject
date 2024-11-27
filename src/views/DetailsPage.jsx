@@ -4,7 +4,7 @@ function LocationDetailsPage() {
   return (
     <main>
         <section className="bg-gray-100">
-            {/* Cabeçalho com o nome da cidade, país e data da visita */}
+            {/* Nome da cidade, país e data da visita */}
             <div className="container mx-auto p-6 w-96">
                 <div className="bg-blue-600 text-white p-4 rounded-lg text-center">
                     <h1 className="text-2xl font-bold">Berlim, Alemanha</h1>
