@@ -1,0 +1,28 @@
+
+
+[
+  {
+    "id": 0,
+    "city": "Berlin",
+    "country": "Alemanha",
+    "date": "12-07-2021",
+    "image": "./images/berlin.png",
+    "link": "/details/berlin"
+  },
+  {
+    "id": 1,
+    "city": "Florianopolis",
+    "country": "Brasil",
+    "date": "22-11-2022",
+    "image": "./images/teste2.png",
+    "link": "/details/florianopolis"
+  },
+  {
+    "id": 2,
+    "city": "Tokyo",
+    "country": "Japão",
+    "date": "05-02-2023",
+    "image": "./images/teste.png",
+    "link": "/details/tokyo"
+  }
+]
