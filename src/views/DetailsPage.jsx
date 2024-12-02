@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function LocationDetailsPage() {
+function LocationDetailsPage({params}) {
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
@@ -10,7 +10,10 @@ function LocationDetailsPage() {
         return response.json();
       })
       .then(data => {
-        setDetails(data); // Atualiza o estado com os dados
+        const filterData = data.filter(value => {
+            return value.slug == params.citySlug
+        })
+        setDetails(filterData); // Atualiza o estado com os dados
       });
   }, []); // O array vazio significa que o efeito ocorre apenas uma vez
 

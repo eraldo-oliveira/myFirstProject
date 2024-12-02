@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" component={HomePage} />
-          <Route path="/details" component={DetailsPage} />
+          <Route path="/details/:citySlug" component={DetailsPage} />
           <Route path="/add-location" component={AddLocationPage} />
           <Route path="/the-traveler" component={TheTravelerPage} />
         </Switch>

@@ -24,7 +24,7 @@ function Card() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Mapear os dados para gerar os cards */}
             {cards.map((card) => (
-              <Link key={card.id} href='details'>
+              <Link key={card.id} href={`details/${card.slug}`}>
                 <div className="bg-white overflow-hidden rounded-xl shadow-lg">
                   <figure className="flex justify-center">
                     <img
