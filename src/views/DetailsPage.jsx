@@ -22,7 +22,7 @@ function LocationDetailsPage({ params }) {
     if (details.length === 0 || !details[0]?.city) return;
 
     // Chave da API
-    const apiKey = ;
+    const apiKey = "cb3b612359b393ff6a260254d1516fa0";
     const cityName = details[0].city;
 
     // URL da API para obter as condições meteorológicas
@@ -72,6 +72,7 @@ function LocationDetailsPage({ params }) {
                   <h2 className="text-2xl font-semibold mb-4">
                     Condições Meteorológicas
                   </h2>
+                  {weather ? (
                     <ul>
                       <li>
                         <strong>Temperatura:</strong> {weather.main.temp}°C
@@ -86,6 +87,9 @@ function LocationDetailsPage({ params }) {
                         <strong>Vento:</strong> {weather.wind.speed} km/h
                       </li>
                     </ul>
+                  ) : (
+                    <p>Carregando as condições meteorológicas...</p>
+                  )}
                 </div>
               </div>
             </div>
