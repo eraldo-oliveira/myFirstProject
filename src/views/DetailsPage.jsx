@@ -22,7 +22,7 @@ function LocationDetailsPage({ params }) {
     if (details.length === 0 || !details[0]?.city) return;
 
     // Chave da API
-    const apiKey = "cb3b612359b393ff6a260254d1516fa0";
+    const apiKey = ;
     const cityName = details[0].city;
 
     // URL da API para obter as condições meteorológicas
