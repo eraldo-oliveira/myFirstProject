@@ -72,7 +72,6 @@ function LocationDetailsPage({ params }) {
                   <h2 className="text-2xl font-semibold mb-4">
                     Condições Meteorológicas
                   </h2>
-                  {weather ? (
                     <ul>
                       <li>
                         <strong>Temperatura:</strong> {weather.main.temp}°C
@@ -87,9 +86,6 @@ function LocationDetailsPage({ params }) {
                         <strong>Vento:</strong> {weather.wind.speed} km/h
                       </li>
                     </ul>
-                  ) : (
-                    <p>Carregando as condições meteorológicas...</p>
-                  )}
                 </div>
               </div>
             </div>
