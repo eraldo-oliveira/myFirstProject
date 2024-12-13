@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ImageSlider from "../components/ImageSlider";
 
 function LocationDetailsPage({params}) {
   const [details, setDetails] = useState([]);
@@ -30,18 +31,11 @@ function LocationDetailsPage({params}) {
                 </div>
             </div>
 
-            {/* Galeria de Imagens */}
-            <div className="container mx-auto">
-                <div className="grid grid-cols-1 gap-6">
-                    <div className="w-full h-96 overflow-hidden">
-                        <img src={details.image} alt={`Imagem da cidade de ${details.city}`} className="w-full h-full object-cover" />
-                    </div>
-                </div>
-            </div>
+            <ImageSlider/>
 
             {/* Descrição do Local e Condições Meteorológicas */}
             <div className="container mx-auto p-6">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ml-20">
                     {/* Descrição do Local */}
                     <div className="bg-white p-6 rounded-lg shadow-lg">
                         <h2 className="text-2xl font-semibold mb-4">Descrição de {details.city}</h2>
