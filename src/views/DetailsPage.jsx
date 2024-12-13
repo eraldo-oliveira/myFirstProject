@@ -22,7 +22,7 @@ function LocationDetailsPage({ params }) {
     if (details.length === 0 || !details[0]?.city) return;
 
     // Chave da API
-    const apiKey = "cb3b612359b393ff6a260254d1516fa0";
+    const apiKey = "";
     const cityName = details[0].city;
 
     // URL da API para obter as condições meteorológicas
@@ -57,7 +57,7 @@ function LocationDetailsPage({ params }) {
 
           {/* Descrição do Local e Condições Meteorológicas */}
           <div className="container mx-auto p-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 ml-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Descrição do Local */}
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <h2 className="text-2xl font-semibold mb-4">
