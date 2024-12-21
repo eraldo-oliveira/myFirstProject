@@ -65,7 +65,7 @@ function LocationDetailsPage({ params }) {
               </div>
 
               {/* Condições Meteorológicas */}
-              <div className="bg-[#D1EDE1] mb-6 md:mt-10">
+              <div className="bg-[#D1EDE1] mb-6 mt-10">
                 <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full mx-auto">
                   <h2 className="text-2xl md:text-3xl font-semibold mb-4">
                     Condições Meteorológicas
