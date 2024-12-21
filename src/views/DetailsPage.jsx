@@ -55,7 +55,7 @@ function LocationDetailsPage({ params }) {
 
           {/* Descrição do Local e Condições Meteorológicas */}
           <div className="container mx-auto p-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-4 lg:mt-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 mt-4 md:mt-6">
               {/* Descrição do Local */}
               <div className="bg-white p-6 rounded-lg shadow-lg lg:mb-6 lg:ml-40">
                 <h2 className="text-2xl md:text-3xl font-semibold mb-4">
@@ -65,7 +65,7 @@ function LocationDetailsPage({ params }) {
               </div>
 
               {/* Condições Meteorológicas */}
-              <div className="bg-[#D1EDE1] flex items-center justify-center h-full mb-8">
+              <div className="bg-[#D1EDE1] mb-6 md:mt-10">
                 <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full mx-auto">
                   <h2 className="text-2xl md:text-3xl font-semibold mb-4">
                     Condições Meteorológicas
