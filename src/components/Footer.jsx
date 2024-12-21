@@ -2,29 +2,27 @@
 function Footer() {
     return (
       <>
-        <footer className="bg-red-200 p-6 mt-auto">
-          <div className="container mx-auto px-5">
+        <footer className="bg-[#028C6A] p-6 mt-auto text-white">
+          <div className="container mx-auto">
             <ul className="flex flex-col items-center justify-center gap-4 md:hidden">
-              <li className="hover:text-red-500"><a href="/">Home</a></li>
-              <li className="hover:text-red-500"><a href="/add-location">Add Location</a></li>
-              <li className="hover:text-red-500"><a href="/the-traveler">The Traveler</a></li>
+              <li className="hover:text-[#D1EDE1] font-bold"><a href="/">HOME</a></li>
+              <li className="hover:text-[#D1EDE1] font-bold"><a href="/add-location"><i class="fa-solid fa-plus"></i> LOCALIZAÇÃO</a></li>
+              <li className="hover:text-[#D1EDE1] font-bold"><a href="/the-traveler">O VIAJANTE</a></li>
             </ul>
     
-            <div className="text-black justify-items-center">
-              <p className="hidden md:block">&copy; 2024 Website. All Rights Reserved.</p>
-              <p className="hidden md:block">Contacts</p>
-              <p className="hidden md:block ">
-                <i class="fa-brands fa-instagram text-xl mr-2"></i>
-                <i class="fa-brands fa-x-twitter text-xl mr-2"></i>
-                <i class="fa-brands fa-whatsapp text-xl"></i>
+            <div className="text-white justify-items-center">
+              <p className="hidden md:block text-lg">Desenvolvido por: Eraldo Junior</p>
+              <p className="hidden md:block text-lg">&copy; 2024 Todos os direitos reservados.</p>
+              <p className="hidden md:block">
+                <i class="fa-brands fa-instagram text-lg mr-2"></i>
+                <i class="fa-brands fa-x-twitter text-lg mr-2"></i>
+                <i class="fa-brands fa-whatsapp text-lg"></i>
               </p>
-              
             </div>
           </div>
         </footer>
       </>
     );
-  
   }
   
   export default Footer;

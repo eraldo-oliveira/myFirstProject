@@ -1,7 +1,5 @@
 
-// import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -16,33 +14,51 @@ function ImageSlider() {
     <>
       <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={0}
           slidesPerView={1}
           navigation
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
         <SwiperSlide>
           <img 
-            src="/images/berlin.png" 
+            src="/images/berlin/1.jpg"
             alt="Imagem de Berlin" 
-            className="w-full h-96 object-cover" l
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover" 
           />
         </SwiperSlide>
         <SwiperSlide>
           <img 
-            src="/images/teste2.png" 
-            alt="Teste 2" 
-            className="w-full h-96 object-cover"
+            src="/images/berlin/2.jpg"
+            alt="Imagem de Berlin" 
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover" 
           />
         </SwiperSlide>
         <SwiperSlide>
           <img 
-            src="/images/teste.png" 
-            alt="Teste"
-            className="w-full h-96 object-cover"
+            src="/images/berlin/3.jpg"
+            alt="Imagem de Berlin" 
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover" 
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img 
+            src="/images/berlin/4.jpg"
+            alt="Imagem de Berlin" 
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover" 
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img 
+            src="/images/berlin/5.jpg"
+            alt="Imagem de Berlin" 
+            className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover" 
           />
         </SwiperSlide>
       </Swiper>

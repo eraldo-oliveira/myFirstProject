@@ -7,9 +7,10 @@
     "city": "Berlin",
     "country": "Alemanha",
     "description": "Berlim, a capital da Alemanha, existe desde o século XIII. Algumas recordações da história turbulenta da cidade no século XX são o Memorial do Holocausto e as ruínas do Muro de Berlim, repletas de grafites. Usado como divisão de fronteiras durante a Guerra Fria, o Portão de Brandemburgo, construído no século XVIII, tornou-se um símbolo da reunificação. A cidade também é conhecida por seu cenário artístico e seus monumentos modernos, como a Filarmônica de Berlim, dourada e de telhado triangular, construída em 1963.",
-    "date": "12-07-2021",
+    "datein": "12-07-2021",
+    "dateout": "06-08-2021",
     "image": "/images/berlin.png",
-    "slider": []
+    "slider": ["/images/berlin/1.jpg", "/images/berlin/2.jpg", "/images/berlin/3.jpg", "/images/berlin/4.jpg", "/images/berlin/5.jpg"]
   },
   {
     "id": 1,
@@ -17,9 +18,10 @@
     "slug": "florianopolis",
     "country": "Brasil",
     "description": "Florianópolis, a capital do estado de Santa Catarina no sul do Brasil, é maioritariamente constituída pela Ilha de Santa Catarina, com 54 km de comprimento. É famosa pelas suas praias, incluindo estâncias turísticas populares como a Praia dos Ingleses na extremidade norte da ilha. A sua Lagoa da Conceição, uma lagoa de água salgada, é popular para a prática de windsurf e para excursões de barco. A Ponte Pedro Ivo Campos faz a ligação entre a ilha e a zona comercial continental. ",
-    "date": "22-11-2022",
-    "image": "/images/teste2.png",
-    "slider": []
+    "datein": "25-05-2022",
+    "dateout": "13-06-2022",
+    "image": "/images/florianopolis.png",
+    "slider": ["/images/florianopolis/1.jpg", "/images/florianopolis/2.jpg", "/images/florianopolis/3.jpg", "/images/florianopolis/4.jpg", "/images/florianopolis/5.jpg"]
   },
   {
     "id": 2,
@@ -27,8 +29,9 @@
     "slug": "toquio",
     "country": "Japão",
     "description": "Tóquio, a movimentada capital do Japão, combina o estilo ultramoderno com o tradicional, desde arranha-céus iluminados por neon a templos históricos. O opulento santuário xintoísta Meiji é conhecido por seu altíssimo portão e pelas florestas circundantes. O Palácio Imperial fica localizado em meio a jardins públicos. Os muitos museus da cidade oferecem exposições que variam de arte clássica (no Museu Nacional de Tóquio) a um teatro kabuki reconstruído (no Museu Edo-Tokyo). ",
-    "date": "05-02-2023",
-    "image": "/images/teste.png",
-    "slider": []
+    "datein": "05-11-2023",
+    "dateout": "29-11-2023",
+    "image": "/images/toquio.png",
+    "slider": ["/images/toquio/1.jpg", "/images/toquio/2.jpg", "/images/toquio/3.jpg", "/images/toquio/4.jpg", "/images/toquio/5.jpg"]
   }
 ]

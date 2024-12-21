@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 function AddLocationPage() {
@@ -26,7 +25,7 @@ function AddLocationPage() {
     // Exibe os dados preenchidos no console
     console.log('Informações do Local:', formData);
 
-    // Limpar o formulário 
+    // Limpa o formulário 
     setFormData({
       local: '',
       dataChegada: '',
@@ -39,11 +38,11 @@ function AddLocationPage() {
     <>
       <main>
         {/* Área do Formulário */}
-        <section>
-          <div className="container mx-auto p-6">
+        <section className="bg-[#D1EDE1]">
+          <div className="container mx-auto p-12 ">
             <div className="flex justify-center gap-8">
               {/* Formulário */}
-              <div className="bg-blue-600 overflow-hidden rounded-xl p-6 w-full max-w-lg">
+              <div className="bg-[#003E19] overflow-hidden rounded-xl p-6 w-full max-w-lg">
                 <h2 className="text-white text-2xl text-center mb-6">Adicionar Novo Local</h2>
 
                 {/* Formulário de adição */}
@@ -57,7 +56,7 @@ function AddLocationPage() {
                       name="local"
                       value={formData.local}
                       onChange={handleChange}
-                      className="w-full p-3 mt-1 rounded-lg bg-blue-200"
+                      className="w-full p-3 mt-1 rounded-lg bg-[#D1EDE1]"
                       placeholder="Nome do local"
                     />
                   </div>
@@ -71,7 +70,7 @@ function AddLocationPage() {
                       name="dataChegada"
                       value={formData.dataChegada}
                       onChange={handleChange}
-                      className="w-full p-3 mt-1 rounded-lg bg-blue-200"
+                      className="w-full p-3 mt-1 rounded-lg bg-[#D1EDE1]"
                     />
                   </div>
 
@@ -84,7 +83,7 @@ function AddLocationPage() {
                       name="dataSaida"
                       value={formData.dataSaida}
                       onChange={handleChange}
-                      className="w-full p-3 mt-1 rounded-lg bg-blue-200"
+                      className="w-full p-3 mt-1 rounded-lg bg-[#D1EDE1]"
                     />
                   </div>
 
@@ -97,7 +96,7 @@ function AddLocationPage() {
                       value={formData.comentario}
                       onChange={handleChange}
                       rows="4"
-                      className="w-full p-3 mt-1 rounded-lg bg-blue-200"
+                      className="w-full p-3 mt-1 rounded-lg bg-[#D1EDE1]"
                       placeholder="Deixe seu comentário"
                     ></textarea>
                   </div>
@@ -106,7 +105,7 @@ function AddLocationPage() {
                   <div className="flex justify-center">
                     <button
                       type="submit"
-                      className="bg-green-600 text-white p-3 rounded-lg w-full mt-4"
+                      className="bg-[#028C6A] text-white p-3 rounded-lg w-full mt-4"
                     >
                       Salvar
                     </button>
